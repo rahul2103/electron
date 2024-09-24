@@ -1,3 +1,5 @@
+require('update-electron-app')()
+
 const { app, BrowserWindow, ipcMain } = require('electron/main')
 const path = require('node:path')
 
